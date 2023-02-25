@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+.navigation{
+    height: 7vh;
+}
+.nav{
+    display: inline;
+    width: 100vw;
+    height: 20vh;
+}
+.nav h1{
+    margin-top: 4vh;
+    margin-left: 10vw;
+    font-size: 1.5em;
+    margin-left: 10vw;
+    margin-bottom: 7vh;
+    font-weight: 800;
+}
+.nav-item {
+    float: right;
+    list-style-type:none;
+    margin-right: 28vw;
+    margin-top: -10vh;
+    
+}
+
+.nav-item li{
+    margin-right: 3vw;
+    display: inline;
+    border-spacing: 1vw;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #717275;
+    font-weight: 500;
+}
+.icon{
+    float: right;
+    margin-right: 10vw;
+    margin-top:-10vh;
+    font-size: 1.3em;
+}
+
+.icon a{
+    display: inline-block;
+    margin-left: 20px;
+    color: #717275;
+}
+.product-title{
+    margin-top: 4vh;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aad0f523;
+}
+.product-title h1{
+    font-size: 3.8rem;
+    font-weight: 800;
+    width: 0vw;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    color:#212529;
+}
+.story-head{
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+}
+.story-image{
+    background-image: url('businesspeople-meeting-office-working.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 80vh;
+    margin-left: -20vw;
+}
+#feature-head1{
+    text-align: left;
+    margin-left: 11vw;
+    font-size: 1.3rem;
+    margin-bottom: -4vh;
+}
+.feature-head{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: larger;
+}
+.meet-main{
+    background-color: #D0D1D1;
+}
+.meet-head h1{
+    font-size: 46px;
+    font-weight: 800;
+    color: #000;
+}
+.meet-main .meet-head h1{
+    position: relative;
+    top: 100px;
+    left: 9vw;
+
+}
+.meet-items{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+.don, .kelly, .marie{
+    display: flex;
+    width: 26vw;
+    height: 25vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.don, .kelly, .marie{
+    margin: .8vw;
+}
+.don h2, .kelly h2, .marie h2{
+    vertical-align: middle;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.don .image{
+    width: 85px;
+    height: 85px;
+    background-image: url('senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 500px;
+}
+.kelly .image{
+    width: 85px;
+    height: 85px;
+    background-image: url('portrait-british-woman.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 500px;
+}
+.marie .image{
+    width: 85px;
+    height: 85px;
+    background-image: url('beautiful-woman-face-portrait-brown-background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 500px;
+}
+.don button, .kelly button, .marie button{
+    background-color: #D0D1D1;
+    border: none;
+    border-radius: 4px;
+    height: 42px;
+    width: 42px;
+}
+.meet-btn i{
+    color: #fff;
+    position: relative;
+    top: -2px;
+}
+.meet-btn i:hover{
+    color: #212529;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+}
+.customer h1{
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    line-height: 10vh;
+    font-size: 3rem;
+}
+.cfooter{
+    font-family: 'Inter', sans-serif;
+    /* height: 45vh; */
+    width: 100vw;
+    height: 50vh;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #717275;
+    padding-bottom: 2%;
+}
+.clittle-fashion-c h1{
+    margin-top: -2vh;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.clittle-fashion-c a{
+    text-decoration: none;
+    color: #717275;
+}
+.clittle-fashion a, c.little-fashion-c{
+    color: #717275;
+}
+.clittle-fashion-c p{
+    margin-top: 7vh;
+    line-height: 5vh;
+    margin-left: -.15vw;
+}
+.csitemap-m{
+    margin-top: vh;
+}
+.csitemap-m h1{
+    margin-left: -1.5vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.csitemap{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: -3vh;
+    margin-left: -3vw;
+}
+.csitemap ul{
+    margin-top: 4vh;
+}
+.csitemap li{
+    list-style-type: none;
+    line-height: 5vh;
+}
+.csitemap a{
+    text-decoration: none;
+}
+.csocial-m{
+    margin-top: -13vh;
+}
+.csocial-m h1{
+    font-size: 2rem;
+    margin-left: -1vw;
+}
+.csocial-m ul{
+    display: flex;
+    margin-left: -5vw;
+    list-style-type: none;
+}
+.csocial-m li{
+    margin-left: 2vw;
+}
+.modal-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 115vh;
+    margin-left: -11vw;
+}
+.modal-header{
+    height: 40vh;
+    width: 59.7vw;
+}
+.modal-header h1{
+    padding: 11vh 0 0 0;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000;
+}
+.modal-header p{
+    padding: 0 0 11vh 0;
+    margin-top: 1vh;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #717275;
+}
+.model-flex{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.modal-header button{
+    position: relative;
+    right: 30px;
+    top: -70px;
+    font-size: 25px;
+}
+.modal-body p{
+    font-size: 24px;
+    padding: 50px;
+    color: #000;
+}
+
+.model-body-c{
+    display: flex;
+    width: 60vw;
+    height: 25vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -8vh;
+}
+.model-body-c p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #717275;
+}
+.where{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+.where span{
+    font-weight: 800;
+    color: #000;
+}
+.where i{
+    color: #717275;
+}
+.where i:hover{
+    color: #FF4400;
+}
+.text-section{
+    margin-top: 8vh;
+    margin-bottom: 55vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60vw;
+    height: 50vh;
+}
+.text-section i{
+    color: #FF4400;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    font-size: 4rem;
+}
+.carousel-inner{
+    height: 70vh;
+}
+.carousel-caption p{
+    text-align: left;
+    font-size: 1.7rem;
+    width: 50vw;
+    color: #212529;
+    margin-left: -50px;
+    position: relative;
+    top: -450px;
+    left: 10px;
+    font-weight: 100;
+}
+.q-foot h5{
+    color: #000;
+    font-weight: 800;
+}
+.q-foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: -420px;
+    left: -50px;
+}
+.q-foot img{
+    width: 55px;
+    height: 55px;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+.carousel-indicators{
+    margin-left: 150px;
+}
+#carouselExampleCaptions button{
+    width: 200px;
+    height: 1px;
+    margin: 0px;
+    background-color: #717275;
+    margin-top: -90px;
+}
+.carousel-item{
+    width: 900px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+#carouselExampleCaptions button:hover{
+    background-color: #000;
+}
+#carouselExampleCaptions button:focus{
+    background-color: #000  ;
+}
+.btn-primary:focus{
+    background-color: #D0D1D1;
+    border: 0px solid lightblue;
+}
+.btn-primary:hover{
+    background-color:   #D0D1D1;
+}
+.clittle-fashion a:hover{
+    color: #fff;
+}
+.clittle-fashion-c a:hover{
+    color: #FF4400;
+}
+
+
+.nav-item li:hover{
+    border-bottom: 2px solid #717275;
+    transition: width 1s;
+}
+.icon a:hover{
+    color: #FF4400;
+}
+

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.Cap h1{
+    color: #000;
+    width: 30vw;
+}
+.Cap span{
+    color: #FF4400;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.Cap{
+    float: right;
+    width: 35vw;
+    position: relative;
+    left: 200px;
+}
+
+.Cap h1{
+    font-size: 2rem;
+}
+
+.Cap .p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: -1px;
+}
+
+.Cap .p{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #717171;
+}
+progress{
+    display: block;
+    width: 24vw;
+    height: 1vh;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 10px;
+    
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.Cap{
+    float: right;
+    width: 35vw;
+    height: 50vh;
+    position: relative;
+    left: 200px;
+}
+
+.Cap h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+.Cap .p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.Cap .p{
+    line-height: 23px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #717171;
+    letter-spacing: .2px;
+}
+progress{
+    display: block;
+    width: 24vw;
+    height: 1vh;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 10px;
+    
+}
+.imgage{
+    margin-left: 6vw;
+}
+.Cap a{
+    width: 30vw;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: .6rem;
+    text-decoration: none;
+    color: #717171;
+    display: inline-block;
+    margin-top: -20px;
+    font-weight: 800;
+}
+.Cap a:hover{
+    color: #FF4400;
+}
